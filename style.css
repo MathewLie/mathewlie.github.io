@@ -1,91 +1,27 @@
-/* Universal Styles */
-body, html {
-    height: 100%;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-a {
-    text-decoration: none;
-    color: #3498db;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-nav ul {
     padding: 0;
-    list-style-type: none;
-    background-color: #333;
-    overflow: hidden;
 }
 
-nav li {
-    float: left;
-}
-
-nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav li a:hover {
-    background-color: #111;
-}
-
-/* Home Page Styles */
 header {
-    background-image: url('images/your-background-image.jpg'); /* replace with a suitable background image */
-    background-size: cover;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 20px;
     text-align: center;
-    color: white;
 }
 
-#about, #projects, #contact {
-    max-width: 960px;
-    margin: 20px auto;
+section {
     padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
 }
 
 footer {
-    background-color: #333;
+    background: #333;
     color: #fff;
     text-align: center;
-    padding: 1em 0;
-    position: relative;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
     width: 100%;
 }
-
-/* Mobile styles */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav li {
-        width: 100%;
-    }
-
-    header {
-        height: 40vh;
-    }
-}
-
-/* Tablet styles */
-@media (min-width: 768px) and (max-width: 1024px) {
-    nav li {
-        width: 50%;
-    }
-}
-
