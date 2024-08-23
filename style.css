@@ -2,8 +2,9 @@
 :root {
     --primary-color: #2c3e50;
     --secondary-color: #e74c3c;
-    --background-color: #ecf0f1;
+    --background-color: #cfe3ff; /* Pastel blue */
     --text-color: #2c3e50;
+    --white-color: #ffffff;
 }
 
 body {
@@ -18,7 +19,7 @@ body {
 /* Header styles */
 header {
     background-color: var(--primary-color);
-    color: #fff;
+    color: var(--white-color);
     padding: 20px;
     text-align: center;
 }
@@ -31,12 +32,11 @@ header {
 
 /* Hero section styles */
 .hero {
-    background-image: url('your-image-url.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
+    background-color: var(--primary-color);
+    color: var(--white-color);
     text-align: center;
     padding: 100px 20px;
+    border-radius: 8px;
 }
 
 .hero-content {
@@ -46,7 +46,7 @@ header {
 
 .btn {
     background-color: var(--secondary-color);
-    color: #fff;
+    color: var(--white-color);
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -61,8 +61,10 @@ header {
 /* Section styles */
 section {
     padding: 40px 0;
-    background-color: #fff;
+    background-color: var(--white-color);
     margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
@@ -74,7 +76,7 @@ h2 {
 }
 
 .project {
-    background-color: #fff;
+    background-color: var(--white-color);
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -84,7 +86,7 @@ h2 {
 /* Footer styles */
 footer {
     background-color: var(--primary-color);
-    color: #fff;
+    color: var(--white-color);
     padding: 20px;
     text-align: center;
     position: relative;
@@ -93,7 +95,7 @@ footer {
 }
 
 footer a {
-    color: #fff;
+    color: var(--white-color);
     margin: 0 10px;
     text-decoration: none;
 }
