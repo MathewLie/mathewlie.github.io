@@ -4,30 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
     <header>
-        <h1>Your Name</h1>
-        <p>Product Manager | Developer | Designer</p>
+        <div class="container">
+            <h1>Your Name</h1>
+            <p>Product Manager | Developer | Designer</p>
+        </div>
     </header>
-    <section>
-        <h2>About Me</h2>
-        <p>A brief introduction about yourself and your professional background.</p>
-    </section>
-    <section>
-        <h2>Projects</h2>
-        <div>
-            <h3>Project 1</h3>
-            <p>Description of your first project.</p>
-        </div>
-        <div>
-            <h3>Project 2</h3>
-            <p>Description of your second project.</p>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm [Your Name]</h1>
+            <p>I create amazing products that solve real problems.</p>
+            <a href="#projects" class="btn">View My Work</a>
         </div>
     </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>A brief introduction about yourself and your professional background.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Description of your first project.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Description of your second project.</p>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <p>Connect with me: <a href="https://www.linkedin.com/in/your-profile">LinkedIn</a> | <a href="mailto:your-email@example.com">Email</a></p>
+        <div class="container">
+            <p>Connect with me: 
+                <a href="https://www.linkedin.com/in/your-profile"><i class="fab fa-linkedin"></i></a> 
+                <a href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a>
+            </p>
+            <p>&copy; 2024 Your Name</p>
+        </div>
     </footer>
 </body>
 </html>
