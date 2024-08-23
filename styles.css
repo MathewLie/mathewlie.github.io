@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2c3e50;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    padding: 50px 20px;
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+}
+
+#about, #projects, #contact {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: white;
+}
+
+a {
+    color: #e74c3c;
+}
+
+a:hover {
+    text-decoration: underline;
+}

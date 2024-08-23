@@ -5,65 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matthew Li - Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Hello, I'm Matthew Li</h1>
-            <p>Product Manager | Developer</p>
-        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- <section class="hero">
-        <div class="hero-content">
-            <h1>Hello, I'm Matthew Li</h1>
-            <p>Aspiring PM</p>
-            <a href="#projects" class="btn">View My Work</a>
-        </div>
-    </section> -->
+    <section id="hero">
+        <h1>Hello, I'm Matthew Li</h1>
+        <p>Aspiring PM</p>
+    </section>
 
     <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I'm a 4th year student at the University of Florida with a Major in Computer Science, a Double Minor in Business Administration and Entrepreneurship, and a Certificate in Artificial Intelligence. I spend my free time learning new skills, playing volleyball, and having fun with loved ones.</p>
-        </div>
+        <h2>About Me</h2>
+        <p>I'm a 4th-year student at the University of Florida...</p>
     </section>
 
     <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <img src="images/pokemove-dex.jpg" alt="Screenshot of PokéMove Dex project" class="project-img">
-                <div class="project-content">
-                    <h3>PokéMove Dex</h3>
-                    <p>Collaborated with 2 others to develop a full-stack web application using a React frontend and Python backend API, and increased the efficiency of the preparation process for professional competitive Pokémon players.
-                        Integrated a splay tree and hash map data structure to allow for quick retrieval of frequently accessed elements.
-                        Consumed external REST API to retrieve image data/GIFs and properly handled errors for missing assets.</p>
-                </div>
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="images/pokemove-dex.jpg" alt="Screenshot of PokéMove Dex project" class="project-img">
+            <div class="project-content">
+                <h3>PokéMove Dex</h3>
+                <p>Collaborated with 2 others to develop a full-stack web application using a React frontend and Python backend API, and increased the efficiency of the preparation process for professional competitive Pokémon players.
+                    Integrated a splay tree and hash map data structure to allow for quick retrieval of frequently accessed elements.
+                    Consumed external REST API to retrieve image data/GIFs and properly handled errors for missing assets.</p>
             </div>
-            <div class="project">
-                <img src="images/pocket-pantry.jpg" alt="Screenshot of Pocket Pantry project" class="project-img">
-                <div class="project-content">
-                    <h3>Pocket Pantry</h3>
-                    <p>Craft Flask API, integrating with Firestore using OpenAI's GPT-3.5 recipe generation and fine-tuned BERT.
-                       Supported frontend with Next.js, ensuring cohesive integration with backend functions via API connections.
-                        Chosen as one of the final 9 teams to present to the National SASE Collegiate and professional recruiters.</p>
-                </div>
+        </div>
+        <div class="project">
+            <img src="images/pocket-pantry.jpg" alt="Screenshot of Pocket Pantry project" class="project-img">
+            <div class="project-content">
+                <h3>Pocket Pantry</h3>
+                <p>Craft Flask API, integrating with Firestore using OpenAI's GPT-3.5 recipe generation and fine-tuned BERT.
+                   Supported frontend with Next.js, ensuring cohesive integration with backend functions via API connections.
+                    Chosen as one of the final 9 teams to present to the National SASE Collegiate and professional recruiters.</p>
             </div>
         </div>
     </section>
-    
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Connect with me:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/matthew-li733/">LinkedIn</a></li>
+            <li><a href="mailto:matthewli73303@gmail.com">Email</a></li>
+        </ul>
+    </section>
 
     <footer>
-        <div class="container">
-            <p>Connect with me: 
-                <a href="https://www.linkedin.com/in/matthew-li733/">LinkedIn</a> 
-                <a href="mailto:matthewli73303@gmail.com">Email</a>
-            </p>
-            <p>&copy; 2024 Matthew Li</p>
-        </div>
+        <p>&copy; 2024 Matthew Li</p>
     </footer>
 </body>
 </html>
