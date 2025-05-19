@@ -7,6 +7,19 @@ h2, h1, h3 {
     font-family: 'FOT Seurat Pro', sans-serif;
 }
 
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+
 /* h2 {
     font-weight: 300;
 }
