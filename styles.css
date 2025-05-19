@@ -21,7 +21,7 @@ h3 {
 
 img {
     position: absolute;
-    right: 0;
+    right: translateX(-35%);
     top: 50%;
     transform: translateY(-50%);
 }
