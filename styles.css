@@ -7,21 +7,14 @@ h2, h1, h3 {
     font-family: 'FOT Seurat Pro', sans-serif;
 }
 
-h2 {
+/* h2 {
     font-weight: 300;
 }
 
 h1 {
-    font-weight: 300; /* Adjust as needed for less boldness */
+    font-weight: 300; /* Adjust as needed for less boldness 
 }
 
 h3 {
     font-weight: 300;
-}
-
-img {
-    position: absolute;
-    right: translateX(-35%);
-    top: 50%;
-    transform: translateY(-50%);
-}
+} */
